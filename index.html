@@ -6,16 +6,29 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="justify-center flex min-h-screen bg-gray-900 items-center flex-col gap-40">
-      <h1 class="font-thin text-7xl text-papayawhip hover:border-b-2">
+    <div
+      class="justify-center flex min-h-screen bg-gray-900 items-center flex-col gap-40"
+    >
+      <h1 class="font-thin text-7xl text-papayawhip hover:border-b-2 mx-auto">
         Hello! <br />I am Sangharsha
       </h1>
-      <div>
-        <button class="bg-red-500 ring-2 ring-whiite" ><a href="#About">About me!</a></button>
+
+      <div
+        class="h-14 w-auto rounded-3xl p-0.5 bg-gradient-to-r from-blue-700 to-purple-600"
+      >
+        <div class="hover:bg-gradient-to-r from-blue-700 to-purple-600 rounded-[calc(1.5rem-1px)] hover:shadow-[#1d4ed8] bg-gray-900 h-full">
+          <div class="h-full flex justify-center items-center">
+            <button class="bg-rounded-3xl p-1 items-center flex text-white">
+              <a href="#About"><p class="">About me!</p></a>
+              <img class="size-auto" src="src/icons8-right-arrow-50.png" />
+            </button>
+          </div>
+        </div>
       </div>
     </div>
     <div
-      class="max-sm:flex-col flex justify-center items-start flex-wrap gap-4" id="About"
+      class="max-sm:flex-col flex justify-center items-start flex-wrap gap-4"
+      id="About"
     >
       <div
         class="border items-center justify-center flex h-10 bg-carribean text-white"
