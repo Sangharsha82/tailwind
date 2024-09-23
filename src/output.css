@@ -625,12 +625,20 @@ video {
   margin-right: 0.75rem;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
 
 .inline-flex {
   display: inline-flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .size-auto {
@@ -664,6 +672,11 @@ video {
 
 .max-h-11 {
   max-height: 2.75rem;
+}
+
+.max-h-min {
+  max-height: -moz-min-content;
+  max-height: min-content;
 }
 
 .min-h-screen {
@@ -969,6 +982,10 @@ video {
 
 .active\:mb-0:active {
   margin-bottom: 0px;
+}
+
+.active\:block:active {
+  display: block;
 }
 
 @media not all and (min-width: 640px) {
